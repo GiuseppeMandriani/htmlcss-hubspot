@@ -157,9 +157,7 @@ i.check{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    color: #ff7a59;
-    background-color: #fff;
-    border: 1px solid #ff7a59;
+
     border-radius: 5px;
 }
 
@@ -170,6 +168,17 @@ i.check{
 
 .big-buttons{
     padding: 20px;
+}
+.border{
+    display: inline-block;
+    width: 150px;
+    padding-left: 10px;
+    color: #33475b;
+    line-height: 1;
+
+    border-left: 1px solid  #33475b;
+
+
 }
 
 
@@ -199,7 +208,7 @@ i.check{
 
 .main-header .Top{
     border-bottom: 1px solid #33475b;
-    background-color: rgb(206, 232, 240);
+    background-color:#f4f9fd;
 }
 
 
@@ -247,7 +256,8 @@ i.check{
 
 .banner{
     height: 80px;
-    background-color: #72dbcf;
+    background-image: linear-gradient(#afebe4, #00b69d);
+    background-color:#afebe4;
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
 }
