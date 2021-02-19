@@ -331,6 +331,13 @@ i.check{
     margin-top: 30px;
 }
 
+/* COMMUNITY */
+
+.Community{
+    height: 700px;
+    background-image: linear-gradient(#00abb7, #00b0b2, #00b6ad);
+}
+
 
 
 
