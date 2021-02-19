@@ -32,15 +32,16 @@ h6{
     margin: 0 auto;
 }
 
+.w-30{
+    width: 30%;
+    /* Container small */
+}
+
 .w-50{
     width: 50%;
     /* Container medium */
 }
 
-.w-30{
-    width: 30%;
-    /* Container small */
-}
 
 .w-70{
     width: 70%;
@@ -60,20 +61,94 @@ h6{
     float: left;
 }
 
-.w-50{
-    width: 50%;
+/* Icons */
+
+.search{
+    margin-right: 10px;
+    color: #20aec4;
 }
+
+i.icons{
+    margin:0 5px;
+}
+
+
+
+/* Liste */
+
+.menu-inline li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-inline li:last-child{
+    margin-right: 0;
+}
+
+/* Buttons */
+.buttons{
+    display: inline-block;
+    min-width: 50px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #ff7a59;
+    background-color: #fff;
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+}
+
+.buttons.btn-orange{
+    color: #fff;
+    background-color: #ff7a59;
+}
+
 
 
 /* MAIN HEADER */
+.main-header{
+    line-height: 80px;
+    font-size: 14px;
+    color: #33475b;
+    /* text-transform: uppercase; */
+}
 
-/* TOP-HEADER */
+.main-header a{
+    text-decoration: none;
+    color: #33475b;
+}
+
+.main-header a.buttons:not(a.buttons.btn-orange){
+    color: #ff7a59;
+}
+
+.main-header a.buttons{
+    line-height: 1;
+    /* fa riferimento alla dimensione del font */
+}
+
+/* Top-header*/
+
 
 .main-header .Top{
-    background-color: #165e8d;
+    border-bottom: 1px solid #33475b;
+    background-color: rgb(206, 232, 240);
 }
 
+
+/* Bottom-header */
+
 .main-header .Bottom{
-    background-color: #ccc;
+    background-color: #fff;
 }
+
+.main-header .Logo img{
+    vertical-align: middle;
+}
+
+
+/* MAIN CONTENT */
+
+
 
