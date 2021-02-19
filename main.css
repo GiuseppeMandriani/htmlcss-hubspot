@@ -25,9 +25,27 @@ h6{
 
 /* UTILITIES (classi di riutilizzo) */
 
+/* Layout */
+
 .Container{
     width: 1200px;
     margin: 0 auto;
+}
+
+.w-50{
+    width: 50%;
+    /* Container medium */
+}
+
+.w-30{
+    width: 30%;
+    /* Container small */
+}
+
+.w-70{
+    width: 70%;
+    text-align: right;
+    /* Container large */
 }
 
 
@@ -45,3 +63,17 @@ h6{
 .w-50{
     width: 50%;
 }
+
+
+/* MAIN HEADER */
+
+/* TOP-HEADER */
+
+.main-header .Top{
+    background-color: #165e8d;
+}
+
+.main-header .Bottom{
+    background-color: #ccc;
+}
+
