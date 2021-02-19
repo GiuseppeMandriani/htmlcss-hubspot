@@ -1,0 +1,47 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 500;
+}
+
+
+/* UTILITIES (classi di riutilizzo) */
+
+.Container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.Clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.Float-left{
+    float: left;
+}
+
+.w-50{
+    width: 50%;
+}
