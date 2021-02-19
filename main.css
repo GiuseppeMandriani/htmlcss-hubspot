@@ -50,6 +50,12 @@ h6{
     /* Container large */
 }
 
+.w-80{
+    width: 80%;
+}
+
+
+
 
 .Clearfix::after{
     content: "";
@@ -73,6 +79,10 @@ i.icons{
     margin:0 5px;
 }
 
+.padding{
+    padding: 50px 0;
+}
+
 
 
 /* Liste */
@@ -88,6 +98,7 @@ i.icons{
 }
 
 /* Buttons */
+
 .buttons{
     display: inline-block;
     min-width: 50px;
@@ -103,6 +114,10 @@ i.icons{
 .buttons.btn-orange{
     color: #fff;
     background-color: #ff7a59;
+}
+
+.big-buttons{
+    padding: 20px;
 }
 
 
@@ -167,9 +182,21 @@ i.icons{
     position: relative;
 }
 
+.Jumbotron-txt{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
 
 .Jumbotron .Container .Jumbotron-txt h1{
+    padding: 15px 0;
     font-size: 42px;
+}
+
+.Jumbotron .Container .Jumbotron-txt p{
+    margin: 20px 0;
 }
 
 .banner{
@@ -178,5 +205,67 @@ i.icons{
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
 }
+
+/* HERO */
+
+/* Hero-top */
+
+.Hero{
+    background-color: #f5f8fa;
+}
+
+.Hero .Hero-top{
+    text-align: center;
+}
+
+.Hero .Hero-top img{
+    width: 50%;
+}
+
+.Hero .Hero-top h2{
+    margin: 15px 0;
+    font-size: 2em;
+}
+
+.Hero .Hero-top p{
+    font-size: 14px;
+    line-height: 2em;
+}
+
+/* Hero Bottom */
+
+/* Horizontal-box */
+
+.box .horizontal-box{
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 1px solid black;
+    border-radius: 5px;
+}
+
+.box .horizontal-box .col{
+    padding: 30px 0;
+    border: 1px solid black;
+}
+
+.box .horizontal-box .col.left{
+    text-align: center;
+}
+
+.box .horizontal-box .col.right{
+    text-align: left;
+}
+
+.box .horizontal-box .col img{
+    width: 50%;
+    height: 200px;
+    margin-bottom:15px;
+}
+
+
+
+
+
 
 
