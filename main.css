@@ -289,6 +289,19 @@ i.check{
     margin-bottom: 30px;
 }
 
+/* Vertical-box */
+
+.box-due .vertical-box .Col{
+    width:calc(100% / 3 - 100px);
+    height: 200px;
+    margin-right: 50px;
+    background-color: blue;
+}
+
+.vertical-box .Container .Col.centrale{
+    margin-right: 0;
+}
+
 
 
 
