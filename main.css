@@ -295,6 +295,10 @@ i.check{
     padding-bottom: 100px;
 }
 
+.Hero .Hero-Top{
+    margin: 0 auto;;
+}
+
 /* Hero Bottom */
 
 /* Horizontal-box */
@@ -375,7 +379,7 @@ i.check{
 }
 
 .sponsor .sponsor-img img{
-    width:12%;
+    width:14%;
     margin: 2% 2%;
     margin-right: 2%;
     vertical-align: middle;
