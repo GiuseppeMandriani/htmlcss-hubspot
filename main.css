@@ -91,7 +91,7 @@ p{
 }
 
 .bold{
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -172,10 +172,18 @@ i.check{
 
 .menu li{
     list-style: none;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     text-align: left;
     line-height: 0;
 }
+
+
+.menu-info li{
+    list-style: none;
+    text-align: left;
+}
+
+
 
 /* Buttons */
 
@@ -185,7 +193,6 @@ i.check{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-
     border-radius: 5px;
 }
 
@@ -197,16 +204,15 @@ i.check{
 .big-buttons{
     padding: 20px;
 }
+
+
 .border{
     display: inline-block;
     width: 150px;
     padding-left: 10px;
     color: #33475b;
     line-height: 1;
-
     border-left: 1px solid  #33475b;
-
-
 }
 
 
@@ -377,7 +383,7 @@ i.check{
     border-bottom: none;
 }
 
-/* Sponsor */
+/* Partners */
 .sponsor .Container .w-20{
     padding-left: 20px;
 }
@@ -404,9 +410,55 @@ i.check{
 
 /* FOOTER */
 footer{
-    height: 500px;
+    color: #fff;
     background-color: #32495b;
+    line-height: 3;
 }
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .list .object{
+    width: 23%;
+    margin-right: 2%;
+}
+
+.object .menu-info a.buttons{
+    border-color: #fff;
+}
+
+footer .list .object a.buttons.support{
+    color: #32495b;
+    background-color: #dadee0;
+
+}
+
+footer .object i{
+    margin: 0 15px;
+}
+
+/* Bottom Footer */
+
+.Language ul{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.Copyright p{
+    line-height: 0em;
+    margin:0;
+}
+
+.Copyright a{
+    margin-right: 15px;
+}
+
+
+
+
 
 
 
