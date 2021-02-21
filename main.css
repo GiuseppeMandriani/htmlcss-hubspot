@@ -1,5 +1,4 @@
 /* GENERAL */
-
 *{
     margin: 0;
     padding: 0;
@@ -78,7 +77,6 @@ p{
     /* Container medium */
 }
 
-
 .w-70{
     width: 70%;
     /* text-align: right; */
@@ -118,12 +116,10 @@ p{
     bottom: 10%;
 }
 
-
 .Clearfix::after{
     content: "";
     display: table;
     clear: both;
-
 }
 
 .Float-left{
@@ -198,7 +194,6 @@ i.big{
 }
 
 
-
 /* Buttons */
 
 .buttons{
@@ -252,7 +247,6 @@ i.big{
 }
 
 
-
 /* MAIN HEADER */
 .main-header{
     line-height: 80px;
@@ -275,12 +269,10 @@ i.big{
 
 /* Top-header*/
 
-
 .main-header .Top{
     border-bottom: 1px solid #33475b;
     background-color:#f4f9fd;
 }
-
 
 /* Bottom-header */
 
@@ -307,7 +299,6 @@ i.big{
     background-size: 1200px;
     background-repeat: no-repeat;
     background-position: 100% 16%;
-
 }
 
 .Jumbotron .Container{
@@ -476,12 +467,9 @@ footer .list .object{
     color: #ff7a59;
 }
 
-
-
 .object .menu-info a.buttons{
     border-color: #fff;
 }
-
 
 footer .object i{
     margin: 0 15px;
