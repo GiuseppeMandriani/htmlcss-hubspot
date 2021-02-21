@@ -5,8 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+html{
+    scroll-behavior:smooth;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -46,6 +47,13 @@ p{
     margin: 20px 0;
 }
 
+/* HELP */
+
+.Help a:hover{
+    font-size: 24px;
+    padding: 30px;
+    transition: 1s;
+}
 
 /* UTILITIES (classi di riutilizzo) */
 
@@ -104,6 +112,12 @@ p{
     transform: translate(0, -50%);
 }
 
+.help-right{
+    position: fixed;
+    right: 3%;
+    bottom: 10%;
+}
+
 
 .Clearfix::after{
     content: "";
@@ -135,6 +149,10 @@ i.check{
     color: #ff7a59;
 }
 
+i.big{
+    font-size: 28px;
+}
+
 .padding{
     padding: 50px 0;
 }
@@ -153,10 +171,6 @@ i.check{
 .img.big{
     width: 50%;
 }
-
-
-
-
 
 /* Liste */
 
@@ -197,6 +211,28 @@ i.check{
 }
 
 .buttons.btn-orange{
+    color: #fff;
+    background-color: #ff7a59;
+}
+
+.buttons.support{
+    color: #32495b;
+    background-color: #dadee0;
+    line-height:2;
+}
+
+.buttons.support.hm{
+    border-radius: 10px;
+    line-height: 1;
+}
+
+.btn-help{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 110%;
+    border-top-right-radius: 110%;
     color: #fff;
     background-color: #ff7a59;
 }
@@ -275,9 +311,6 @@ i.check{
     height: 100%;
     position: relative;
 }
-
-
-
 
 .Jumbotron .Container .Jumbotron-txt h1{
     padding: 15px 0;
@@ -420,26 +453,33 @@ footer a{
     color: #fff;
 }
 
+footer .list{
+    /* padding: 20px; */
+    margin-bottom: 20px;
+}
+
 footer .list .object{
     width: 23%;
     margin-right: 2%;
+}
+
+.object .social-icons{
+    margin-top: 15px;
 }
 
 .object .menu-info a.buttons{
     border-color: #fff;
 }
 
-footer .list .object a.buttons.support{
-    color: #32495b;
-    background-color: #dadee0;
-
-}
 
 footer .object i{
     margin: 0 15px;
 }
 
 /* Bottom Footer */
+.Copyright{
+    position: relative;
+}
 
 .Language ul{
     padding: 10px;
@@ -455,6 +495,22 @@ footer .object i{
 .Copyright a{
     margin-right: 15px;
 }
+
+/* Go-back to home */
+.Go-back-to-Home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
 
 
 
