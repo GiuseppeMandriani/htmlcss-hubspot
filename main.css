@@ -292,6 +292,9 @@ i.big{
     vertical-align: middle;
 }
 
+.main-header .Bottom a:hover{
+    text-decoration: underline;
+}
 
 /* MAIN CONTENT */
 
@@ -463,9 +466,17 @@ footer .list .object{
     margin-right: 2%;
 }
 
+/* Top footer */
+
 .object .social-icons{
     margin-top: 15px;
 }
+
+.object .social-icons i:hover{
+    color: #ff7a59;
+}
+
+
 
 .object .menu-info a.buttons{
     border-color: #fff;
@@ -485,6 +496,10 @@ footer .object i{
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #fff;
+}
+
+.Language a:hover{
+    text-decoration: underline;
 }
 
 .Copyright p{
