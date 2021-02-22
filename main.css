@@ -110,6 +110,10 @@ p{
     transform: translate(0, -50%);
 }
 
+.relative{
+    position: relative;
+}
+
 .help-right{
     position: fixed;
     right: 3%;
@@ -351,6 +355,13 @@ i.big{
     border-radius: 5px;
 }
 
+.box-uno .Col-left hr{
+    position: absolute;
+    margin-left: 40%;
+    background-color: #33475b;
+
+}
+
 /* Vertical-box */
 
 .box-due .Col{
@@ -452,12 +463,12 @@ footer .list{
     margin-bottom: 20px;
 }
 
+
+/* Top footer */
 footer .list .object{
     width: 23%;
     margin-right: 2%;
 }
-
-/* Top footer */
 
 .object .social-icons{
     margin-top: 15px;
