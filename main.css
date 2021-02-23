@@ -146,12 +146,13 @@ p{
     text-decoration: underline;
 }
 
-.menu-language:hover .dropdown-content{
+.drop:hover .dropdown-content{
     display: block;
     line-height: 1;
+    text-align: left;
 }
 
-.menu-language:hover a.lang{
+.drop:hover a.lang{
     color: #ff7a59;
 }
 
