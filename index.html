@@ -23,8 +23,22 @@
             <div class="Container Clearfix">
             <!-- Top-left -->
                 <div class=" H-Top-left w-30 Float-left">
-                    <a href=""><i class="fas fa-globe-europe icons"></i>English<i class="fas fa-angle-down icons"></i></a>
-                    <a class="border" href="">Contact us</a>
+                    <ul class="menu-inline">
+                        <li>
+                            <div class="menu-language relative">
+                                <a class="lang" href=""><i class="fas fa-globe-europe icons"></i>English<i class="fas fa-angle-down icons"></i></a>
+                                <div class="dropdown-content">                 
+                                     <a href="">English</a>
+                                     <a href="">Deutsch</a>
+                                     <a href="">日本語</a>
+                                     <a href="">Español</a>
+                                     <a href="">Portugês</a>
+                                     <a href="">Français</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a class="border" href="">Contact us</a></li>
+                    </ul>
                 </div>
         
             <!-- Top-right -->
@@ -401,9 +415,26 @@
     </footer>
 
     <!-- HELP -->
-    <div class="Help help-right ">
-        <a class="btn-help" href=""><i class="far fa-comment-alt"></i></a>
+    <div class="Help">
+        <div class="Help-message dropdown-content">
+            <div class="logo-help align-center ">
+                <img src="./img-hubspot/homepage_community_followers.svg" alt="">
+            </div>
+            <p><span>&#128075;</span>Want to chat about HubSpot? I'm here to help you find your way.</p>
+        </div>
+        <a class="buttons big-buttons btn-orange radius-50" href=""><i class="far fa-comment-alt"></i></a>
     </div>
+
+
+
+
+
+    <!-- <div class="help-right relative">
+        <a class="btn-help" href=""><i class="far fa-comment-alt"></i></a>
+        <div class="dropdown-content Help">
+            <p>Want to chat about HubSpot? I'm here to help you find your way.</p>
+        </div>
+    </div> -->
     
 </body>
 </html>
