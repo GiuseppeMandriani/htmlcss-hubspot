@@ -133,6 +133,8 @@ p{
 }
 
 
+
+
 /* DROPDOWN */
 
 .dropdown-content{
@@ -221,6 +223,14 @@ i.big{
 
 .padding{
     padding: 50px 0;
+}
+
+.icone{
+    font-size: 22px;
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;line-height: 0;
+    margin-left: 0;
 }
 
 /* Immagini */
@@ -398,13 +408,22 @@ i.big{
 }
 
 .sub-list-content.little{
-    width: 500px;
+    width: 550px;
+    padding: 15px;
 }
 
-.sub-list-content a {
+.sub-list-content a{
   padding: 10px;
   display: block;
   line-height: 1;
+}
+
+.sub-list-content.little a{
+    padding: 10px;
+}
+
+.sub-list-content.little a:hover{
+    text-decoration: underline;
 }
 
 
@@ -469,7 +488,7 @@ span.link-sub{
 .row .box{
     padding: 5px;
     width: calc(100%/2 - 30px);
-    margin: 15px 15px;
+    margin: 10px 15px;
     background: #fff;
 }
 .row .box h4,
