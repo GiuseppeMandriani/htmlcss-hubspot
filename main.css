@@ -383,8 +383,9 @@ i.big{
     text-decoration: underline;
 }
 
-.Bottom .H-Bottom-right a:hover{
+.main-header .Bottom a.no-dec:hover{
     text-decoration: none;
+
 }
 
 /* SUB-TITLE */
@@ -501,6 +502,7 @@ span.link-sub{
 /* Sub-list-foot */
 
 .sub-foot{
+    padding: 15px;
     background:#eaf0f6;
     border-top: 1px solid #ccc;
 }
@@ -513,15 +515,6 @@ span.link-sub{
 .sub-foot a{
     padding: 0;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* MAIN CONTENT */
